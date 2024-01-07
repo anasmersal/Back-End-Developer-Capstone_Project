@@ -1,4 +1,5 @@
-Criteria for Evaluation:
+Criteria for Evaluation
+
 Django for Static Content: Utilize Django for serving static HTML content.
 
 Git Repository Commitment: Ensure project is committed to a Git repository.
