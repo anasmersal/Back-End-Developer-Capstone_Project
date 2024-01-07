@@ -7,6 +7,9 @@ class Booking(models.Model):
     No_of_guests = models.IntegerField()
     BookingDate = models.DateField()
 
+    def __str__(self):
+        return f"{self.Name} - {self.BookingDate}"
+
 
 class Menu(models.Model):
     Title = models.CharField(max_length=255)
